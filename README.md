@@ -1,2 +1,4 @@
 # leo-alves-melo.github.io
-About me
+
+This is the project for my personal portfolio.
+
