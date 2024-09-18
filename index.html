@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="leonardo.jpg" alt="Leonardo" class="profile-photo">
+        <img src="src/leonardo.jpg" alt="Leonardo" class="profile-photo">
         <h1>Leonardo Alves de Melo</h1>
         <h3>Senior iOS Developer</h3>
         <nav>
@@ -36,8 +36,11 @@
         <h2>Work Experience</h2>
         <div class="job">
             <h3>iOS Developer</h3>
-            <p class="company">Eldorado Research Institute - Campinas, Brazil</p>
-            <p class="date">Feb 2022 - Present</p>
+            <div style="display: flex;">
+                <p class="company">Eldorado Research Institute - Campinas, Brazil (</p>
+                <p class="date">Feb 2022 - Present</p>
+                <p class="company">)</p>
+            </div>
             <p class="description">
                 - Development of iOS and macOS applications for brazilian and international companies.<br>
                 - Mentoring future iOS Developers.
@@ -45,16 +48,22 @@
         </div>
     
         <div class="job">
-            <p class="company">Zup Innovation</p>
-            <p class="date">Aug 2020 - Jan 2022</p>
+            <div style="display: flex;">
+                <p class="company">Zup Innovation (</p>
+                <p class="date">Aug 2020 - Jan 2022</p>
+                <p class="company">)</p>
+            </div>
             <p class="description">
                 - Development of iOS apps for Itaú Unibanco.<br>
             </p>
         </div>
 
         <div class="job">
-            <p class="company">Eldorado Developer Agency</p>
-            <p class="date">Jan 2019 - Aug 2020</p>
+            <div style="display: flex;">
+                <p class="company">Eldorado Developer Agency (</p>
+                <p class="date">Jan 2019 - Aug 2020</p>
+                <p class="company">)</p>
+            </div>
             <p class="description">
                 - Development of iOS apps for Fast Shop and TOTVS,<br>
             </p>
@@ -62,20 +71,25 @@
 
         <div class="job">
             <h3>Student</h3>
-            <p class="company">Apple Developer Academy</p>
-            <p class="date">Jan 2017 - Dec 2018</p>
+            <div style="display: flex;">
+                <p class="company">Apple Developer Academy (</p>
+                <p class="date">Jan 2017 - Dec 2018</p>
+                <p class="company">)</p>
+            </div>
             <p class="description">
                 - An iOS Developer Training Program.<br>
                 - Created my own iOS apps.<br>
                 - Scholarship at WWDC 2018.<br>
             </p>
-            <p class="tech-used">Technologies: Swift, UIKit, Objective-C, Git</p>
         </div>
 
         <div class="job">
             <h3>Researcher</h3>
-            <p class="company">TecSinapse</p>
-            <p class="date">Mar 2016 - Feb 2018</p>
+            <div style="display: flex;">
+                <p class="company">TecSinapse (</p>
+                <p class="date">Mar 2016 - Feb 2018</p>
+                <p class="company">)</p>
+            </div>
             <p class="description">
                 - Scientific research on Internet of Things using Machine Learning concepts.<br>
             </p>
@@ -87,8 +101,11 @@
     
         <div class="school">
             <h3>Master's Degree in Computer Science</h3>
-            <p class="institution">State University of Campinas (UNICAMP) - Campinas, Brazil</p>
-            <p class="date">2019 - 2012</p>
+            <div style="display: flex;">
+                <p class="institution">State University of Campinas (UNICAMP) - Campinas, Brazil (</p>
+                <p class="date">2019 - 2012</p>
+                <p class="institution">)</p>
+            </div>
             <p class="description">
                 - My research was about using Machine Learning Technics to identify and recover inconsistencies in IoT Systems.<br>
                 - Publication in Congress: <a href="https://sol.sbc.org.br/index.php/sbcup/article/view/16006">SBCUP 2021</a><br>
@@ -98,8 +115,11 @@
     
         <div class="school">
             <h3>Bachelor's Degree in Computer Engineering</h3>
-            <p class="institution">State University of Campinas (UNICAMP) - Campinas, Brazil</p>
-            <p class="date">2014 - 2019</p>
+            <div style="display: flex;">
+                <p class="institution">State University of Campinas (UNICAMP) - Campinas, Brazil (</p>
+                <p class="date">2014 - 2019</p>
+                <p class="institution">)</p>
+            </div>
             <p class="description">
                 - Formed with distinction.<br>
                 - Activities and societies: Undergraduate Research in IoT and Machine Learning<br>
@@ -112,11 +132,27 @@
     <section id="projects">
         <h2>Notorious Projects</h2>
         <ul>
-            <li><strong>Guia Certo:</strong> Connects certified brazilian tourist guides with the tourists.</li>
-            <li><strong>Save the Trees!:</strong> Every minute 2000 trees are deforested in the Amazon Forest, but now you have the magical power to make the difference. Will this power be enough?<br>
+            <li><a href="https://github.com/leo-alves-melo/Save-the-Trees">Save the Trees!</a> Every minute 2000 trees are deforested in the Amazon Forest, but now you have the magical power to make the difference. Will this power be enough?<br>
 
-                iOS App winner of scholarship at WWDC 2018.</li>
-            <li><strong>Guru Invest</strong> Teaches about investment.</li>
+                iOS App winner of scholarship at WWDC 2018. Over 5000 downloads.<br>
+                <img src="src/save-the-trees1.jpg" alt="Save the Trees 1" width=200>
+                <img src="src/save-the-trees2.png" alt="Save the Trees 2" width=200>
+                <br><br>
+            </li>
+            <li>
+                <a href="https://gitlab.com/leo-alves-melo/habitusApp">Guru Invest</a> Teaches about investment.<br>
+                <img src="src/guru1.png" alt="Guru Invest 1" width=200 height=350>
+                <img src="src/guru2.png" alt="Guru Invest 2" width=200 height=350>
+                <img src="src/guru3.png" alt="Guru Invest 3" width=200 height=350>
+                <br><br>
+            </li>
+            <li>
+                <a href="https://gitlab.com/guiacerto/guia-certo-ios">Guia Certo</a> Connects certified brazilian tourist guides with the tourists.<br>
+                <img src="src/guia-certo1.png" alt="Guia Certo 1" width=200>
+                <img src="src/guia-certo2.png" alt="Guia Certo 2" width=200>
+                <img src="src/guia-certo3.png" alt="Guia Certo 3" width=200>
+                <br><br>
+            </li>
         </ul>
     </section>
 
@@ -125,9 +161,12 @@
         <ul>
             <li>iOS Development (Swift, SwiftUI, UIKit, Objective-C)</li>
             <li>macOS Development (AppKit)</li>
-            <li>Version Control (Git, GitHub, BitBucket, GitLab)</li>
+            <li>Version Control (Git)</li>
+            <li>Architectures: MVC, MVVM, MVVM-C, Clean Swift</li>
+            <li>SOLID</li>
             <li>CI/CD (XCode Cloud, GitLab, Jenkins)</li>
             <li>UI/UX Design Principles</li>
+            <li>Languages: Portuguese (native speaker), English (fluent) and Castellano Spanish (Intermediate)</li>
         </ul>
     </section>
 
